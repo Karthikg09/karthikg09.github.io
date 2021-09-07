@@ -202,7 +202,8 @@ Design and Developed by: Codelayers
 
 .fr-feature-box-5:hover h5,
 .fr-feature-box-5.active h5 {
-    color: #ecae3d;
+    color: #4bec3d;
+    opacity: 1;
 }
 
 
