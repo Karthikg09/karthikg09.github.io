@@ -242,7 +242,17 @@ Design and Developed by: Codelayers
 
 /* ---------- MAX 1024PX ---------- */
 
-@media screen and (max-width: 1024px) {}
+@media screen and (max-width: 1440px) {
+    .about-me {
+        margin-top: 180px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .about-me {
+        margin-top: 200px;
+    }
+}
 
 @media only screen and (max-width: 1000px) {}
 
@@ -259,7 +269,11 @@ Design and Developed by: Codelayers
 
 /* ---------- MAX 768PX ---------- */
 
-@media only screen and (max-width: 768px) {}
+@media only screen and (max-width: 768px) {
+    .about-me {
+        margin-top: 60px;
+    }
+}
 
 
 /* ---------- MAX 767PX ---------- */
