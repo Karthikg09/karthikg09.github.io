@@ -255,6 +255,15 @@ Design and Developed by: Codelayers
     color: #996515;
 }
 
+.footer_contact-icon {
+    color: chartreuse;
+    font-size: 26px;
+}
+
+.footer_contact-icon:hover {
+    color: #996515;
+}
+
 
 /*----------------------------RESPONSIVE STYLES------------------------------- */
 
@@ -301,7 +310,11 @@ Design and Developed by: Codelayers
 
 @media screen and (max-width: 640px) {}
 
-@media screen and (max-width: 480px) {}
+@media screen and (max-width: 480px) {
+    .footer_contact-icon {
+        font-size: 22px;
+    }
+}
 
 
 /* ---------- MAX 360PX ---------- */
