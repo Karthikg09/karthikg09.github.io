@@ -57,14 +57,14 @@
 
 <body>
 
-    <div class="over-loader loader-live">
+    <!-- <div class="over-loader loader-live">
         <div class="loader">
             <div class="loader-item style4">
                 <div class="cube1"></div>
                 <div class="cube2"></div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!--end loading-->
 
     <!-- Style Customizer -->
@@ -158,6 +158,7 @@
     </div> -->
     <!-- Style customizer END -->
 
+    <div class="preloader"></div>
     <div class="wrapper-boxed">
         <div class="site-wrapper">
             <div class="topbar-transparent" style="background-color: #a9a9a9;padding: 7px;">
@@ -1587,8 +1588,8 @@
         $(window).load(function() {
             setTimeout(function() {
 
-                $('.loader-live').fadeOut();
-            }, 1000);
+                $('.preloader').fadeOut();
+            }, 4000);
         })
     </script>
     <script src="js/functions/functions.js"></script>

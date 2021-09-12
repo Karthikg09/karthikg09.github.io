@@ -264,6 +264,18 @@ Design and Developed by: Codelayers
     color: #996515;
 }
 
+.preloader {
+    background: url(../logo_suphala_final.gif) no-repeat center center #fcfcff;
+    height: 100%;
+    background-size: 90%;
+    width: 100%;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    overflow: hidden;
+    z-index: 99999;
+}
+
 
 /*----------------------------RESPONSIVE STYLES------------------------------- */
 

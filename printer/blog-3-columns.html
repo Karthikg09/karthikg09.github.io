@@ -33,6 +33,7 @@
     <link href="js/owl-carousel/owl.carousel.css" rel="stylesheet">
     <link href="js/tabs/css/responsive-tabs.css" rel="stylesheet" type="text/css" media="all" />
     <link rel="stylesheet" type="text/css" href="js/cubeportfolio/cubeportfolio.min.css">
+    <link rel="stylesheet" href="css/farmer.css">
     <!-- Template's stylesheets END -->
 
     <!--[if lt IE 9]>
@@ -50,18 +51,18 @@
 </head>
 
 <body>
-    <div class="over-loader loader-live">
+    <!-- <div class="over-loader loader-live">
         <div class="loader">
             <div class="loader-item style4">
                 <div class="cube1"></div>
                 <div class="cube2"></div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!--end loading-->
 
     <!-- Style Customizer -->
-    <section id="style-customizer">
+    <!-- <section id="style-customizer">
         <div class="style-customizer-wrap form-horizontal">
             <h4 class="sc-header">Style Customizer</h4>
             <h5>Layout Style</h5>
@@ -148,9 +149,11 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- Style customizer END -->
 
+
+    <div class="preloader"></div>
     <div class="wrapper-boxed">
         <div class="site-wrapper">
             <div class="topbar dark topbar-padding">
@@ -933,8 +936,8 @@
         $(window).load(function() {
             setTimeout(function() {
 
-                $('.loader-live').fadeOut();
-            }, 1000);
+                $('.preloader').fadeOut();
+            }, 4000);
         })
     </script>
     <script src="js/functions/functions.js"></script>
