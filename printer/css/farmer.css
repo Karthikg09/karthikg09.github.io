@@ -276,9 +276,9 @@ Design and Developed by: Codelayers
 } */
 
 .preloader {
-    background: url(../logo_suphala_final.gif) no-repeat center center #fff;
+    background: url('https://drive.google.com/uc?export=view&id=1TFf3DO_gMaPMVCBEJ7q8WN_0BxJOrLQc') no-repeat center center #fcfcff;
     height: 100%;
-    background-size: 80%;
+    background-size: 70%;
     width: 100%;
     position: fixed;
     left: 0px;
