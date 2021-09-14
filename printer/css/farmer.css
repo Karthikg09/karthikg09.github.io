@@ -382,3 +382,14 @@ Design and Developed by: Codelayers
     height: 100%;
     border: 0;
 }
+
+
+/*SCROLL BAR COLORING */
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #576d22;
+}
