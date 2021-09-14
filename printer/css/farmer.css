@@ -287,6 +287,14 @@ Design and Developed by: Codelayers
     z-index: 99999;
 }
 
+.fo-img_slider {
+    transform: translateY(-20px);
+}
+
+.about-me {
+    margin-top: 150px;
+}
+
 
 /*----------------------------RESPONSIVE STYLES------------------------------- */
 
@@ -301,7 +309,7 @@ Design and Developed by: Codelayers
 
 @media screen and (max-width: 1024px) {
     .about-me {
-        margin-top: 195px;
+        margin-top: 170px;
     }
 }
 
@@ -336,6 +344,9 @@ Design and Developed by: Codelayers
 @media screen and (max-width: 480px) {
     .footer_contact-icon {
         font-size: 22px;
+    }
+    .fo-img_slider {
+        transform: translateY(-10px);
     }
 }
 
