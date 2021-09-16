@@ -267,9 +267,10 @@ a.read-more.gyellow-2 {
     color: #576d22;
 }
 
-.scrollup {
+
+/* .scrollup {
     background: #576d22 url(http://127.0.0.1:5500/images/scroll-top-arrow.png) no-repeat 15px 16px;
-}
+} */
 
 .ce4-feature-box-2:hover .icon-plain-small,
 .ce4-feature-box-2:hover .title,

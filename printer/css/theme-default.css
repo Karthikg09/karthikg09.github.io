@@ -5023,7 +5023,8 @@ div.demo .title span {
 
 /*============ Page Scroll to Top ============ */
 
-.scrollup {
+
+/* .scrollup {
     width: 40px;
     height: 40px;
     opacity: 1;
@@ -5034,7 +5035,7 @@ div.demo .title span {
     text-indent: -9999px;
     background: #ecae3d url(../images/scroll-top-arrow.png) no-repeat 15px 16px;
     z-index: 999;
-}
+} */
 
 
 /*============ google maps ============ */
