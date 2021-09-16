@@ -252,7 +252,7 @@ Design and Developed by: Codelayers
 }
 
 .footer_contact:hover {
-    color: #996515;
+    color: #fff;
 }
 
 .footer_contact-icon {
@@ -261,7 +261,11 @@ Design and Developed by: Codelayers
 }
 
 .footer_contact-icon:hover {
-    color: #996515;
+    color: aqua;
+}
+
+.footer_contact:visited {
+    color: #fff;
 }
 
 
