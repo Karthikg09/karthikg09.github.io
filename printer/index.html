@@ -1474,8 +1474,11 @@
             <!-- end section -->
 
             <!-- <a href="#" class="scrollup" style="background-color: #576d22;"><img src="images/scroll-top-arrow.png" style="z-index: 12;"></a> -->
-            <button class="back-to-top" type="button"></button>
+            <!-- <button class="back-to-top" type="button"></button> -->
             <!-- end scroll to top of the page-->
+            <a href="#" class="scrollup" id="scroll-up">
+                <i class="scrollup_icon uil uil-arrow-circle-up"></i>
+            </a>
 
         </div>
         <!--end site wrapper-->
@@ -1519,6 +1522,15 @@
     <script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.navigation.min.js"></script>
     <script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.parallax.min.js"></script>
     <script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.actions.min.js"></script>
+    <script>
+        function scrollUp() {
+            const scrollUp = document.getElementById('scroll-up');
+            // When the scroll is higher than 560 viewport height, add the show-scroll class to the a tag with the scroll-top class
+            if (this.scrollY >= 560) scrollUp.classList.add('show-scroll');
+            else scrollUp.classList.remove('show-scroll')
+        }
+        window.addEventListener('scroll', scrollUp)
+    </script>
 
 
     <script type="text/javascript">
