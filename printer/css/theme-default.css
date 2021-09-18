@@ -2928,6 +2928,17 @@ a.topbar-btn {
     width: 37%;
 }
 
+/* TobBar alignment */
+.top-bar-align {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media(max-width: 480px) {
+    .top-bar-align {
+        display: block;
+    }
+}
 
 /* topbar dark list color
  ------------------------------ */
@@ -5195,20 +5206,25 @@ div.demo .title span {
     .col-divider-margin {
         margin-top: 30px;
     }
+
     .text-box-right {
         padding: 0px 0px 0px 100px;
     }
+
     .wrapper-main {
         width: 100%;
         padding-left: 230px;
         background-color: #fff;
     }
+
     .wrapper-main .container {
         width: 100%;
     }
+
     .header-inner.less-height .text {
         padding: 13% 0 0;
     }
+
     .header-inner .text {
         padding: 25% 0 0;
     }
@@ -5218,6 +5234,7 @@ div.demo .title span {
     .col-divider-margin {
         margin-top: 20px;
     }
+
     .col-divider-margin-1,
     .col-divider-margin-2,
     .col-divider-margin-3,
@@ -5226,15 +5243,19 @@ div.demo .title span {
     .col-divider-margin-6 {
         margin-top: 20px;
     }
+
     .sec-m-margin-1 {
         margin-top: 0px;
     }
+
     .topbar-transparent {
         background-color: #101010;
     }
+
     .wrapper-main {
         padding-left: 0px;
     }
+
     .header-inner-tmargin {
         margin-top: 0px;
     }
@@ -5247,9 +5268,11 @@ div.demo .title span {
     .margin-bottom {
         margin-bottom: 30px;
     }
+
     .col-divider-margin {
         margin-top: 20px;
     }
+
     .col-divider-margin-1,
     .col-divider-margin-2,
     .col-divider-margin-3,
@@ -5258,6 +5281,7 @@ div.demo .title span {
     .col-divider-margin-6 {
         margin-top: 20px;
     }
+
     .margin-left-1,
     .margin-left-2,
     .margin-left-3,
@@ -5267,6 +5291,7 @@ div.demo .title span {
     .margin-left-7 {
         margin-left: 0px;
     }
+
     .padding-top-1,
     .padding-top-2,
     .padding-top-3,
@@ -5275,6 +5300,7 @@ div.demo .title span {
     .padding-top-6 {
         padding-top: 40px;
     }
+
     .padding-left-1,
     .padding-left-2,
     .padding-left-3,
@@ -5285,6 +5311,7 @@ div.demo .title span {
     .padding-left-8 {
         padding-left: 40px;
     }
+
     .padding-right-1,
     .padding-right-2,
     .padding-right-3,
@@ -5295,6 +5322,7 @@ div.demo .title span {
     .padding-right-8 {
         padding-right: 40px;
     }
+
     .text-box.padding-1,
     .text-box.padding-2,
     .text-box.padding-3,
@@ -5306,6 +5334,7 @@ div.demo .title span {
     .text-box.padding-9 {
         padding: 40px;
     }
+
     .btn.btn-mar-left-1,
     .btn.btn-mar-left-2,
     .btn.btn-mar-left-3,
@@ -5313,6 +5342,7 @@ div.demo .title span {
     .btn.btn-mar-left-5 {
         margin-left: 0px
     }
+
     .sec-title-container.less-padding-1,
     .sec-title-container.less-padding-2,
     .sec-title-container.less-padding-3,
@@ -5321,15 +5351,19 @@ div.demo .title span {
     .sec-title-container.less-padding-6 {
         padding-bottom: 30px;
     }
+
     .header-inner {
         height: 385px;
     }
+
     .header-inner.less-height {
         height: 385px;
     }
+
     .header-inner.less-height .text {
         padding: 16% 0 0;
     }
+
     .header-inner .text {
         padding: 16% 0 0;
     }
@@ -5342,10 +5376,12 @@ div.demo .title span {
     .margin-bottom {
         margin-bottom: 30px;
     }
+
     .margin-bottom-4,
     .margin-bottom-5 {
         margin-bottom: 20px;
     }
+
     .margin-top-3,
     .margin-top-4,
     .margin-top-5,
@@ -5353,9 +5389,11 @@ div.demo .title span {
     .margin-top-7 {
         margin-top: 20px;
     }
+
     .col-divider-margin {
         margin-top: 20px;
     }
+
     .col-divider-margin-1,
     .col-divider-margin-2,
     .col-divider-margin-3,
@@ -5364,6 +5402,7 @@ div.demo .title span {
     .col-divider-margin-6 {
         margin-top: 20px;
     }
+
     .margin-left-1,
     .margin-left-2,
     .margin-left-3,
@@ -5373,6 +5412,7 @@ div.demo .title span {
     .margin-left-7 {
         margin-left: 0px;
     }
+
     .padding-top-1,
     .padding-top-2,
     .padding-top-3,
@@ -5381,6 +5421,7 @@ div.demo .title span {
     .padding-top-6 {
         padding-top: 40px;
     }
+
     .padding-left-1,
     .padding-left-2,
     .padding-left-3,
@@ -5391,6 +5432,7 @@ div.demo .title span {
     .padding-left-8 {
         padding-left: 40px;
     }
+
     .padding-right-1,
     .padding-right-2,
     .padding-right-3,
@@ -5401,6 +5443,7 @@ div.demo .title span {
     .padding-right-8 {
         padding-right: 40px;
     }
+
     .text-box.padding-1,
     .text-box.padding-2,
     .text-box.padding-3,
@@ -5412,6 +5455,7 @@ div.demo .title span {
     .text-box.padding-9 {
         padding: 40px;
     }
+
     .btn.btn-mar-left-1,
     .btn.btn-mar-left-2,
     .btn.btn-mar-left-3,
@@ -5419,6 +5463,7 @@ div.demo .title span {
     .btn.btn-mar-left-5 {
         margin-left: 0px
     }
+
     .sec-title-container.less-padding-1,
     .sec-title-container.less-padding-2,
     .sec-title-container.less-padding-3,
@@ -5427,43 +5472,54 @@ div.demo .title span {
     .sec-title-container.less-padding-6 {
         padding-bottom: 30px;
     }
+
     .sec-padding {
         padding: 60px 0 60px 0;
     }
+
     .sec-more-padding-1 {
         padding: 60px 0 60px 0;
     }
+
     .sec-bpadding-2,
     .sec-bpadding-3,
     .sec-bpadding-4 {
         padding-bottom: 60px;
     }
+
     .sec-tpadding-2,
     .sec-tpadding-3,
     .sec-tpadding-4 {
         padding-top: 60px;
     }
+
     .section-xmore-padding,
     .section-less-padding,
     .section-less-padding-2 {
         padding: 60px 0 60px 0;
     }
+
     .sec-moreless-padding {
         padding: 60px 0 60px 0;
     }
+
     .thumbs li {
         width: 10%;
     }
+
     .fo-copyright-holder .social-iconbox {
         left: 33%;
         top: -87px;
     }
+
     .fo-sec-3 {
         padding: 244px 0 0 0;
     }
+
     .header-inner {
         height: 310px;
     }
+
     .header-inner.less-height {
         height: 310px;
     }
@@ -5476,10 +5532,12 @@ div.demo .title span {
     .margin-bottom {
         margin-bottom: 30px;
     }
+
     .margin-bottom-4,
     .margin-bottom-5 {
         margin-bottom: 20px;
     }
+
     .margin-top-3,
     .margin-top-4,
     .margin-top-5,
@@ -5487,9 +5545,11 @@ div.demo .title span {
     .margin-top-7 {
         margin-top: 20px;
     }
+
     .col-divider-margin {
         margin-top: 20px;
     }
+
     .col-divider-margin-1,
     .col-divider-margin-2,
     .col-divider-margin-3,
@@ -5498,6 +5558,7 @@ div.demo .title span {
     .col-divider-margin-6 {
         margin-top: 20px;
     }
+
     .margin-left-1,
     .margin-left-2,
     .margin-left-3,
@@ -5507,6 +5568,7 @@ div.demo .title span {
     .margin-left-7 {
         margin-left: 0px;
     }
+
     .padding-top-1,
     .padding-top-2,
     .padding-top-3,
@@ -5515,6 +5577,7 @@ div.demo .title span {
     .padding-top-6 {
         padding-top: 40px;
     }
+
     .padding-top-1,
     .padding-top-2,
     .padding-top-3,
@@ -5523,6 +5586,7 @@ div.demo .title span {
     .padding-top-6 {
         padding-top: 40px;
     }
+
     .padding-left-1,
     .padding-left-2,
     .padding-left-3,
@@ -5533,6 +5597,7 @@ div.demo .title span {
     .padding-left-8 {
         padding-left: 40px;
     }
+
     .padding-right-1,
     .padding-right-2,
     .padding-right-3,
@@ -5543,6 +5608,7 @@ div.demo .title span {
     .padding-right-8 {
         padding-right: 40px;
     }
+
     .text-box.padding-1,
     .text-box.padding-2,
     .text-box.padding-3,
@@ -5554,6 +5620,7 @@ div.demo .title span {
     .text-box.padding-9 {
         padding: 40px;
     }
+
     .btn.btn-mar-left-1,
     .btn.btn-mar-left-2,
     .btn.btn-mar-left-3,
@@ -5561,6 +5628,7 @@ div.demo .title span {
     .btn.btn-mar-left-5 {
         margin-left: 0px
     }
+
     .sec-title-container.less-padding-1,
     .sec-title-container.less-padding-2,
     .sec-title-container.less-padding-3,
@@ -5569,40 +5637,50 @@ div.demo .title span {
     .sec-title-container.less-padding-6 {
         padding-bottom: 30px;
     }
+
     .sec-padding {
         padding: 60px 0 60px 0;
     }
+
     .sec-more-padding-1 {
         padding: 60px 0 60px 0;
     }
+
     .sec-bpadding-2,
     .sec-bpadding-3,
     .sec-bpadding-4 {
         padding-bottom: 60px;
     }
+
     .sec-tpadding-2,
     .sec-tpadding-3,
     .sec-tpadding-4 {
         padding-top: 60px;
     }
+
     .section-xmore-padding,
     .section-less-padding,
     .section-less-padding-2 {
         padding: 60px 0 60px 0;
     }
+
     .sec-moreless-padding {
         padding: 60px 0 60px 0;
     }
+
     .fo-copyright-holder .social-iconbox {
         left: 33%;
         top: -87px;
     }
+
     .header-inner {
         height: 325px;
     }
+
     .header-inner.less-height {
         height: 325px;
     }
+
     .five-cols .col-md-1,
     .five-cols .col-sm-1,
     .five-cols .col-lg-1 {
@@ -5617,10 +5695,12 @@ div.demo .title span {
     .margin-bottom {
         margin-bottom: 30px;
     }
+
     .margin-bottom-4,
     .margin-bottom-5 {
         margin-bottom: 20px;
     }
+
     .margin-top-3,
     .margin-top-4,
     .margin-top-5,
@@ -5628,9 +5708,11 @@ div.demo .title span {
     .margin-top-7 {
         margin-top: 20px;
     }
+
     .col-divider-margin {
         margin-top: 20px;
     }
+
     .col-divider-margin-1,
     .col-divider-margin-2,
     .col-divider-margin-3,
@@ -5639,6 +5721,7 @@ div.demo .title span {
     .col-divider-margin-6 {
         margin-top: 20px;
     }
+
     .margin-left-1,
     .margin-left-2,
     .margin-left-3,
@@ -5648,6 +5731,7 @@ div.demo .title span {
     .margin-left-7 {
         margin-left: 0px;
     }
+
     .padding-top-1,
     .padding-top-2,
     .padding-top-3,
@@ -5656,6 +5740,7 @@ div.demo .title span {
     .padding-top-6 {
         padding-top: 40px;
     }
+
     .padding-left-1,
     .padding-left-2,
     .padding-left-3,
@@ -5666,6 +5751,7 @@ div.demo .title span {
     .padding-left-8 {
         padding-left: 40px;
     }
+
     .padding-right-1,
     .padding-right-2,
     .padding-right-3,
@@ -5676,6 +5762,7 @@ div.demo .title span {
     .padding-right-8 {
         padding-right: 40px;
     }
+
     .text-box.padding-1,
     .text-box.padding-2,
     .text-box.padding-3,
@@ -5687,6 +5774,7 @@ div.demo .title span {
     .text-box.padding-9 {
         padding: 40px;
     }
+
     .btn.btn-mar-left-1,
     .btn.btn-mar-left-2,
     .btn.btn-mar-left-3,
@@ -5694,6 +5782,7 @@ div.demo .title span {
     .btn.btn-mar-left-5 {
         margin-left: 0px
     }
+
     .sec-title-container.less-padding-1,
     .sec-title-container.less-padding-2,
     .sec-title-container.less-padding-3,
@@ -5708,10 +5797,12 @@ div.demo .title span {
     .margin-bottom {
         margin-bottom: 30px;
     }
+
     .margin-bottom-4,
     .margin-bottom-5 {
         margin-bottom: 20px;
     }
+
     .margin-top-3,
     .margin-top-4,
     .margin-top-5,
@@ -5719,9 +5810,11 @@ div.demo .title span {
     .margin-top-7 {
         margin-top: 20px;
     }
+
     .col-divider-margin {
         margin-top: 20px;
     }
+
     .col-divider-margin-1,
     .col-divider-margin-2,
     .col-divider-margin-3,
@@ -5730,6 +5823,7 @@ div.demo .title span {
     .col-divider-margin-6 {
         margin-top: 20px;
     }
+
     .margin-left-1,
     .margin-left-2,
     .margin-left-3,
@@ -5739,6 +5833,7 @@ div.demo .title span {
     .margin-left-7 {
         margin-left: 0px;
     }
+
     .padding-top-1,
     .padding-top-2,
     .padding-top-3,
@@ -5747,6 +5842,7 @@ div.demo .title span {
     .padding-top-6 {
         padding-top: 40px;
     }
+
     .padding-left-1,
     .padding-left-2,
     .padding-left-3,
@@ -5757,6 +5853,7 @@ div.demo .title span {
     .padding-left-8 {
         padding-left: 40px;
     }
+
     .padding-right-1,
     .padding-right-2,
     .padding-right-3,
@@ -5767,6 +5864,7 @@ div.demo .title span {
     .padding-right-8 {
         padding-right: 40px;
     }
+
     .lspace-sm,
     .lspace-1,
     .lspace-2,
@@ -5775,6 +5873,7 @@ div.demo .title span {
     .lspace-5 {
         letter-spacing: 0px;
     }
+
     .text-box.padding-1,
     .text-box.padding-2,
     .text-box.padding-3,
@@ -5786,6 +5885,7 @@ div.demo .title span {
     .text-box.padding-9 {
         padding: 40px;
     }
+
     .btn.btn-mar-left-1,
     .btn.btn-mar-left-2,
     .btn.btn-mar-left-3,
@@ -5793,6 +5893,7 @@ div.demo .title span {
     .btn.btn-mar-left-5 {
         margin-left: 0px
     }
+
     .sec-title-container.less-padding-1,
     .sec-title-container.less-padding-2,
     .sec-title-container.less-padding-3,
@@ -5801,53 +5902,67 @@ div.demo .title span {
     .sec-title-container.less-padding-6 {
         padding-bottom: 30px;
     }
+
     .sec-padding {
         padding: 40px 0 40px 0;
     }
+
     .sec-more-padding-1 {
         padding: 40px 0 40px 0;
     }
+
     .sec-bpadding-2,
     .sec-bpadding-3,
     .sec-bpadding-4 {
         padding-bottom: 40px;
     }
+
     .sec-tpadding-2,
     .sec-tpadding-3,
     .sec-tpadding-4 {
         padding-top: 40px;
     }
+
     .section-xmore-padding,
     .section-less-padding,
     .section-less-padding-2 {
         padding: 40px 0 40px 0;
     }
+
     .sec-moreless-padding {
         padding: 40px 0 40px 0;
     }
+
     #style-customizer {
         display: none;
     }
+
     .text-box.sbox-padd-left {
         padding-left: 80px;
     }
+
     .fo-sec-1 .newsletter-box {
         top: 0;
     }
+
     .fo-sec-1 {
         top: 0px;
         padding: 315px 0 0 0;
     }
+
     .fo-copyright-holder .social-iconbox {
         left: 29%;
         top: -67px;
     }
+
     .section-side-image .text-inner-5 {
         padding: 40px 40px 40px 40px;
     }
+
     .header-inner {
         height: 270px;
     }
+
     .header-inner.less-height {
         height: 270px;
     }
@@ -5857,10 +5972,12 @@ div.demo .title span {
     .margin-bottom {
         margin-bottom: 30px;
     }
+
     .margin-bottom-4,
     .margin-bottom-5 {
         margin-bottom: 20px;
     }
+
     .margin-top-3,
     .margin-top-4,
     .margin-top-5,
@@ -5868,9 +5985,11 @@ div.demo .title span {
     .margin-top-7 {
         margin-top: 20px;
     }
+
     .col-divider-margin {
         margin-top: 20px;
     }
+
     .col-divider-margin-1,
     .col-divider-margin-2,
     .col-divider-margin-3,
@@ -5879,6 +5998,7 @@ div.demo .title span {
     .col-divider-margin-6 {
         margin-top: 20px;
     }
+
     .margin-left-1,
     .margin-left-2,
     .margin-left-3,
@@ -5888,6 +6008,7 @@ div.demo .title span {
     .margin-left-7 {
         margin-left: 0px;
     }
+
     .padding-top-1,
     .padding-top-2,
     .padding-top-3,
@@ -5896,6 +6017,7 @@ div.demo .title span {
     .padding-top-6 {
         padding-top: 30px;
     }
+
     .padding-left-1,
     .padding-left-2,
     .padding-left-3,
@@ -5906,6 +6028,7 @@ div.demo .title span {
     .padding-left-8 {
         padding-left: 30px;
     }
+
     .padding-right-1,
     .padding-right-2,
     .padding-right-3,
@@ -5916,6 +6039,7 @@ div.demo .title span {
     .padding-right-8 {
         padding-right: 30px;
     }
+
     .lspace-sm,
     .lspace-1,
     .lspace-2,
@@ -5924,6 +6048,7 @@ div.demo .title span {
     .lspace-5 {
         letter-spacing: 0px;
     }
+
     .text-box.padding-1,
     .text-box.padding-2,
     .text-box.padding-3,
@@ -5935,6 +6060,7 @@ div.demo .title span {
     .text-box.padding-9 {
         padding: 30px;
     }
+
     .btn.btn-mar-left-1,
     .btn.btn-mar-left-2,
     .btn.btn-mar-left-3,
@@ -5942,12 +6068,15 @@ div.demo .title span {
     .btn.btn-mar-left-5 {
         margin-left: 0px
     }
+
     .topbar .border-r {
         border-right: none;
     }
+
     .topbar .padd-left {
         padding-left: 0px;
     }
+
     .sec-title-container.less-padding-1,
     .sec-title-container.less-padding-2,
     .sec-title-container.less-padding-3,
@@ -5956,55 +6085,70 @@ div.demo .title span {
     .sec-title-container.less-padding-6 {
         padding-bottom: 30px;
     }
+
     .sec-padding {
         padding: 40px 0 40px 0;
     }
+
     .sec-more-padding-1 {
         padding: 40px 0 40px 0;
     }
+
     .sec-bpadding-2,
     .sec-bpadding-3,
     .sec-bpadding-4 {
         padding-bottom: 40px;
     }
+
     .sec-tpadding-2,
     .sec-tpadding-3,
     .sec-tpadding-4 {
         padding-top: 40px;
     }
+
     .section-xmore-padding,
     .section-less-padding,
     .section-less-padding-2 {
         padding: 40px 0 40px 0;
     }
+
     .sec-moreless-padding {
         padding: 40px 0 40px 0;
     }
+
     #style-customizer {
         display: none;
     }
+
     .fo-copyright-holder .social-iconbox {
         left: 12%;
         top: -67px;
     }
+
     .fo-sec-3 {
         padding: 287px 0 0 0;
     }
+
     .section-side-image .text-inner-5 {
         padding: 40px 40px 40px 40px;
     }
+
     .header-inner .text .title {
         font-size: 20px;
     }
+
     .header-inner .text .sub-title {
         font-size: 14px;
     }
+
     .header-inner {
         height: 225px;
     }
+
     .header-inner.less-height {
         height: 225px;
     }
+
     .clients-list.grid-cols-6 li {
         width: 50%;
     }
@@ -6017,10 +6161,12 @@ div.demo .title span {
     .margin-bottom {
         margin-bottom: 30px;
     }
+
     .margin-bottom-4,
     .margin-bottom-5 {
         margin-bottom: 20px;
     }
+
     .margin-top-3,
     .margin-top-4,
     .margin-top-5,
@@ -6028,9 +6174,11 @@ div.demo .title span {
     .margin-top-7 {
         margin-top: 20px;
     }
+
     .col-divider-margin {
         margin-top: 20px;
     }
+
     .col-divider-margin-1,
     .col-divider-margin-2,
     .col-divider-margin-3,
@@ -6039,6 +6187,7 @@ div.demo .title span {
     .col-divider-margin-6 {
         margin-top: 20px;
     }
+
     .margin-left-1,
     .margin-left-2,
     .margin-left-3,
@@ -6048,6 +6197,7 @@ div.demo .title span {
     .margin-left-7 {
         margin-left: 0px;
     }
+
     .padding-top-1,
     .padding-top-2,
     .padding-top-3,
@@ -6056,6 +6206,7 @@ div.demo .title span {
     .padding-top-6 {
         padding-top: 25px;
     }
+
     .padding-left-1,
     .padding-left-2,
     .padding-left-3,
@@ -6066,6 +6217,7 @@ div.demo .title span {
     .padding-left-8 {
         padding-left: 25px;
     }
+
     .padding-right-1,
     .padding-right-2,
     .padding-right-3,
@@ -6076,6 +6228,7 @@ div.demo .title span {
     .padding-right-8 {
         padding-right: 25px;
     }
+
     .lspace-sm,
     .lspace-1,
     .lspace-2,
@@ -6084,6 +6237,7 @@ div.demo .title span {
     .lspace-5 {
         letter-spacing: 0px;
     }
+
     .iconbox-dxlarge.left,
     .iconbox-xlarge.left,
     .iconbox-large.left,
@@ -6095,6 +6249,7 @@ div.demo .title span {
     .iconbox-xtiny.left {
         margin: 0px 0px 20px 0px;
     }
+
     .imgbox-dxlarge.left,
     .imgbox-dxlarge-2.left,
     .imgbox-xlarge.left,
@@ -6108,14 +6263,17 @@ div.demo .title span {
         float: left;
         margin: 0px 0 20px 0px;
     }
+
     .text-box-right {
         width: 100%;
         padding: 0 0 0 0;
     }
+
     .text-box-left {
         width: 100%;
         padding: 0 0 0 0;
     }
+
     .text-box.padding-1,
     .text-box.padding-2,
     .text-box.padding-3,
@@ -6127,12 +6285,14 @@ div.demo .title span {
     .text-box.padding-9 {
         padding: 25px;
     }
+
     .text-box-left.more-padding-1,
     .text-box-left.more-padding-2,
     .text-box-left.less-padding-1,
     .text-box-left.less-padding-2 {
         padding: 0px 0px 0px 0px;
     }
+
     .text-box-right.more-padding-1,
     .text-box-right.more-padding-2,
     .text-box-right.more-padding-3,
@@ -6142,6 +6302,7 @@ div.demo .title span {
     .text-box-right.less-padding-3 {
         padding: 0px 0px 0px 0px;
     }
+
     .btn.btn-mar-left-1,
     .btn.btn-mar-left-2,
     .btn.btn-mar-left-3,
@@ -6149,27 +6310,35 @@ div.demo .title span {
     .btn.btn-mar-left-5 {
         margin-left: 0px
     }
+
     .btn.btn-large {
         padding: 15px 30px;
     }
+
     .section-side-image .text-inner-2 {
         padding: 40px;
     }
+
     .section-side-image .text-inner {
         padding: 40px 40px 40px 0;
     }
+
     .section-side-image .text-inner.two {
         padding: 0px 40px 0px 0;
     }
+
     .section-side-image-2 .background-imgholder-2.top-padd {
         padding-top: 40px;
     }
+
     .section-side-image-2 .text-inner.two {
         padding: 0px 40px 0px 0;
     }
+
     .section-side-image .text-inner-5 {
         padding: 40px 40px 40px 40px;
     }
+
     .sec-title-container.less-padding-1,
     .sec-title-container.less-padding-2,
     .sec-title-container.less-padding-3,
@@ -6178,57 +6347,72 @@ div.demo .title span {
     .sec-title-container.less-padding-6 {
         padding-bottom: 30px;
     }
+
     .sec-padding {
         padding: 40px 0 40px 0;
     }
+
     .sec-more-padding-1 {
         padding: 40px 0 40px 0;
     }
+
     .sec-bpadding-2,
     .sec-bpadding-3,
     .sec-bpadding-4 {
         padding-bottom: 40px;
     }
+
     .sec-tpadding-2,
     .sec-tpadding-3,
     .sec-tpadding-4 {
         padding-top: 40px;
     }
+
     .section-xmore-padding,
     .section-less-padding,
     .section-less-padding-2 {
         padding: 40px 0 40px 0;
     }
+
     .sec-moreless-padding {
         padding: 40px 0 40px 0;
     }
+
     .fo-copyright-holder .social-iconbox {
         left: 5%;
     }
+
     .fo-sec-1 .newsletter-box {
         padding: 35px;
     }
+
     .fo-sec-2 .social-iconbox {
         left: 14%;
         top: -67px;
     }
+
     .section-side-image .text-inner-3 {
         padding: 30px 30px 0px 30px;
     }
+
     .fo-sec-3 {
         padding: 328px 0 0 0;
     }
+
     .text-box-right {
         width: 100%;
         padding: 0 0 0 0;
         float: left;
     }
+
     .text-box-right.less-padding-4 {
         padding: 0px 0px 0px 0px;
     }
+
     .header-inner {
         height: 195px;
     }
+
     .header-inner.less-height {
         height: 195px;
     }
@@ -6241,10 +6425,12 @@ div.demo .title span {
     .margin-bottom {
         margin-bottom: 30px;
     }
+
     .margin-bottom-4,
     .margin-bottom-5 {
         margin-bottom: 20px;
     }
+
     .margin-top-3,
     .margin-top-4,
     .margin-top-5,
@@ -6252,9 +6438,11 @@ div.demo .title span {
     .margin-top-7 {
         margin-top: 20px;
     }
+
     .col-divider-margin {
         margin-top: 20px;
     }
+
     .col-divider-margin-1,
     .col-divider-margin-2,
     .col-divider-margin-3,
@@ -6263,6 +6451,7 @@ div.demo .title span {
     .col-divider-margin-6 {
         margin-top: 20px;
     }
+
     .margin-left-1,
     .margin-left-2,
     .margin-left-3,
@@ -6272,6 +6461,7 @@ div.demo .title span {
     .margin-left-7 {
         margin-left: 0px;
     }
+
     .padding-top-1,
     .padding-top-2,
     .padding-top-3,
@@ -6280,6 +6470,7 @@ div.demo .title span {
     .padding-top-6 {
         padding-top: 20px;
     }
+
     .padding-left-1,
     .padding-left-2,
     .padding-left-3,
@@ -6290,6 +6481,7 @@ div.demo .title span {
     .padding-left-8 {
         padding-left: 20px;
     }
+
     .padding-right-1,
     .padding-right-2,
     .padding-right-3,
@@ -6300,6 +6492,7 @@ div.demo .title span {
     .padding-right-8 {
         padding-right: 20px;
     }
+
     .lspace-sm,
     .lspace-1,
     .lspace-2,
@@ -6308,6 +6501,7 @@ div.demo .title span {
     .lspace-5 {
         letter-spacing: 0px;
     }
+
     .iconbox-dxlarge.left,
     .iconbox-xlarge.left,
     .iconbox-large.left,
@@ -6319,6 +6513,7 @@ div.demo .title span {
     .iconbox-xtiny.left {
         margin: 0px 0px 20px 0px;
     }
+
     .imgbox-dxlarge.left,
     .imgbox-dxlarge-2.left,
     .imgbox-xlarge.left,
@@ -6332,14 +6527,17 @@ div.demo .title span {
         float: left;
         margin: 0px 0 20px 0px;
     }
+
     .text-box-right {
         width: 100%;
         padding: 0 0 0 0;
     }
+
     .text-box-left {
         width: 100%;
         padding: 0 0 0 0;
     }
+
     .text-box.padding-1,
     .text-box.padding-2,
     .text-box.padding-3,
@@ -6351,6 +6549,7 @@ div.demo .title span {
     .text-box.padding-9 {
         padding: 20px;
     }
+
     .text-box-right.more-padding-1,
     .text-box-right.more-padding-2,
     .text-box-right.more-padding-3,
@@ -6360,6 +6559,7 @@ div.demo .title span {
     .text-box-right.less-padding-3 {
         padding: 0px 0px 0px 0px;
     }
+
     .btn.btn-mar-left-1,
     .btn.btn-mar-left-2,
     .btn.btn-mar-left-3,
@@ -6367,21 +6567,27 @@ div.demo .title span {
     .btn.btn-mar-left-5 {
         margin-left: 0px
     }
+
     .btn.btn-large {
         padding: 15px 30px;
     }
+
     .section-side-image .text-inner {
         padding: 40px 40px 40px 0;
     }
+
     .section-side-image .text-inner.two {
         padding: 0px 40px 0px 0;
     }
+
     .section-side-image-2 .background-imgholder-2.top-padd {
         padding-top: 40px;
     }
+
     .section-side-image-2 .text-inner.two {
         padding: 0px 40px 0px 0;
     }
+
     .sec-title-container.less-padding-1,
     .sec-title-container.less-padding-2,
     .sec-title-container.less-padding-3,
@@ -6390,61 +6596,77 @@ div.demo .title span {
     .sec-title-container.less-padding-6 {
         padding-bottom: 30px;
     }
+
     .sec-padding {
         padding: 30px 0 30px 0;
     }
+
     .sec-more-padding-1 {
         padding: 30px 0 30px 0;
     }
+
     .sec-bpadding-2,
     .sec-bpadding-3,
     .sec-bpadding-4 {
         padding-bottom: 30px;
     }
+
     .sec-tpadding-2,
     .sec-tpadding-3,
     .sec-tpadding-4 {
         padding-top: 30px;
     }
+
     .section-xmore-padding,
     .section-less-padding,
     .section-less-padding-2 {
         padding: 30px 0 30px 0;
     }
+
     .sec-moreless-padding {
         padding: 30px 0 30px 0;
     }
+
     .fo-copyright-holder .social-iconbox {
         left: 16%;
         top: -59px;
     }
+
     .fo-copyright-holder .social-iconbox {
         width: 71%;
     }
+
     .fo-copyright-holder .social-iconbox .side-shape1.right-icon {
         left: 213px;
     }
+
     .fo-sec-2 .social-iconbox {
         left: 9%;
         top: -57px;
     }
+
     .fo-sec-3 {
         padding: 409px 0 0 0;
     }
+
     .fo-copyright-holder .social-iconbox .side-shape1 {
         left: -13px;
         top: 1px;
     }
+
     .fo-copyright-holder .social-iconbox .side-shape1.right-icon {
         left: 205px;
         top: 1px;
     }
+
     .header-inner {
         height: 170px;
     }
+
     .header-inner.less-height {
         height: 170px;
     }
+
     .sec-title-container {
         padding-bottom: 35px;
     }
