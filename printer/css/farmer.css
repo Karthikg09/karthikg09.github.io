@@ -300,6 +300,38 @@ Design and Developed by: Codelayers
 }
 
 
+/* contact page button */
+
+.con-btn {
+    color: #fff !important;
+    border-radius: 10px !important;
+}
+
+.con-btn:hover {
+    color: #000 !important;
+    background-color: #566d227e !important;
+}
+
+.mes-icon {
+    color: #7fff00;
+}
+
+.mes-icon:hover {
+    color: #ff0000;
+}
+
+
+/* footer slider image */
+
+.footer-slider_img {
+    color: white !important;
+}
+
+.footer-slider_img:hover {
+    color: #ff0000 !important;
+}
+
+
 /*----------------------------RESPONSIVE STYLES------------------------------- */
 
 
