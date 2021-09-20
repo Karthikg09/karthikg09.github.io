@@ -28,7 +28,8 @@
     float: left;
     z-index: 0;
     transition: all 0.3s ease-out 0s;
-    background-color: #ecae3d;
+    background-color: #576d22;
+    opacity: 0.9;
 }
 
 .img-hover-1:hover .img-hover-1 img {
