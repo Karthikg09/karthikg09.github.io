@@ -28,9 +28,18 @@
     float: left;
     z-index: 0;
     transition: all 0.3s ease-out 0s;
-    background-color: #576d21;
+    background-color: #576d22;
 }
 
 .img-hover-1:hover .img-hover-1 img {
     top: 280px;
+}
+
+
+/*MOBILE VIEW CSS*/
+
+@media only screen and (max-width: 520px) {
+    .img-hover-1:hover .img-hover-1 img {
+        top: 420px;
+    }
 }
