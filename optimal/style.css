@@ -326,9 +326,8 @@ h2 {
     }
 }
 
-
-/* #preloader {
-    background: url(../logo-1.gif) no-repeat center center #fbfefc;
+#preloader {
+    background: url(../logo-1.gif) no-repeat center center #b197fd;
     height: 100%;
     background-size: 80%;
     width: 100%;
@@ -337,10 +336,14 @@ h2 {
     top: 0px;
     overflow: hidden;
     z-index: 99999;
-    animation-delay: 3000;
-} */
+}
 
-.preloader {
+.ytvideo {
+    display: none;
+}
+
+
+/* .preloader {
     background: url(../logo-1.gif) no-repeat center center #b197fd;
     height: 100%;
     background-size: 70%;
@@ -350,4 +353,4 @@ h2 {
     top: 0px;
     overflow: hidden;
     z-index: 99999;
-}
+} */
