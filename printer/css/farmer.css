@@ -490,3 +490,87 @@ Design and Developed by: Codelayers
 .show-scroll {
     bottom: 5rem;
 }
+
+
+/* top bar strip codes */
+
+.subheader .contact span i {
+    font-style: normal;
+    text-transform: lowercase
+}
+
+.subheader .contact span:last-of-type {
+    margin-bottom: 0
+}
+
+.subheader {
+    background: #064017;
+    text-align: center;
+    padding: 20px 0
+}
+
+.subheader span {
+    font: 500 16px "Lato";
+    color: #fff;
+    text-transform: capitalize;
+    display: block;
+    margin-bottom: 8px
+}
+
+.subheader .contact span i {
+    font-style: normal;
+    text-transform: lowercase
+}
+
+.subheader .contact span:last-of-type {
+    margin-bottom: 0
+}
+
+@media only screen and (min-width: 992px) {
+    .subheader {
+        padding: 0 0 0 50px;
+        text-align: left
+    }
+    .subheader span {
+        display: inline-block;
+        padding: 8px 0;
+        margin-bottom: 0
+    }
+    .subheader .contact {
+        float: right;
+        margin-top: 5px
+    }
+    .subheader .contact span {
+        padding: 0 40px 0 30px;
+        position: relative
+    }
+    .subheader .contact span:last-of-type {
+        padding-right: 50px
+    }
+    .subheader .contact span:before {
+        position: absolute;
+        top: 0;
+        left: 0;
+        content: '';
+        width: 14px;
+        height: 14px
+    }
+    .subheader .contact span:nth-child(1):before {
+        background: url(../images/telephone.svg) no-repeat;
+        background-size: 14px
+    }
+    .subheader .contact span:nth-child(1):after {
+        position: absolute;
+        bottom: 0;
+        right: 20px;
+        content: '';
+        background: #fdfffe;
+        height: 100%;
+        width: 1px
+    }
+    .subheader .contact span:nth-child(2):before {
+        background: url(../images/envelope.svg) no-repeat;
+        background-size: 14px;
+        top: 1px
+    }
+}
