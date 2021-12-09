@@ -147,3 +147,23 @@ input[type=submit]:hover {
     width: 50%;
     padding-top: 20px;
 }
+
+.footer {
+    padding: 25px;
+    background-color: #000;
+    text-align: center;
+}
+
+.footer1 {
+    color: white;
+    font-size: 20px;
+    justify-content: center;
+}
+
+.footer1 a:hover {
+    color: chartreuse;
+}
+
+.footer1 a {
+    color: orange;
+}
